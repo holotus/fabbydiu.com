@@ -3,13 +3,53 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Fabby Diu | Graphic Designer | About</title>
+    <title>Fabby Diu | Graphic Designer | Portfolio</title>
     <link href="styles/reset.css" rel="stylesheet" type="text/css" />
     <link href="styles/main.css" rel="stylesheet" type="text/css" />
     
     <link rel="icon" type="image/png" href="images/fabby-favicon.png">
+        
+	<script type="text/javascript">
+
+		function MM_swapImgRestore() { //v3.0
+		  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+		}
+		function MM_preloadImages() { //v3.0
+		  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+			var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+			if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+		}
+		
+		function MM_findObj(n, d) { //v4.01
+		  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+			d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		  if(!x && d.getElementById) x=d.getElementById(n); return x;
+		}
+		
+		function MM_swapImage() { //v3.0
+		  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+		}
+    </script>
     
 </head>
+
+<body onload="MM_preloadImages(
+    'images/thumb-ola-on.jpg','images/thumb-cuso-on.jpg',
+    'images/thumb-cuso-on.jpg',
+	'images/thumb-threshold-on.jpg',
+    'images/thumb-chf-on.jpg',
+    'images/thumb-wyers-on.jpg',
+    'images/thumb-rexall-on.jpg',
+    'images/thumb-cabas-on.jpg',
+    'images/thumb-tid-on.jpg',
+    'images/thumb-ahking-on.jpg',
+    'images/thumb-greensoul-on.jpg',
+    'images/thumb-integrate-on.jpg',
+    'images/thumb-personal-on.jpg')"
+>
 
 <div id="wrapper">
     
@@ -20,10 +60,10 @@
     
     <div id="navigation">
         <ul id="menu-nav">
-          <li> <a href="contact.html"> Contact </a> </li>
+          <li><a href="contact.html"> Contact </a> </li>
           <li> <a href="http://fabbydiu.tumblr.com" target="_blank"> Blog </a> </li>
-          <li> <a href="portfolio.html"> Portfolio </a> </li>
-          <li> <a href="index.html" style="color: #ec008c"> About </a> </li>
+          <li><a href="index.html" style="color: #ec008c"> Portfolio </a> </li>
+          <li><a href="about.html"> About </a> </li>
       </ul>
     </div>
     
@@ -33,57 +73,83 @@
 </header>
     
     <div id="container">
-    
-    	<div id="leftcolumn">
+    	
+        <div class="thumbnail">
+            <a href="portfolio-ola.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('ola-thumb','',' images/thumb-ola-on.jpg',1)">
+            <img src="images/thumb-ola.jpg" alt="ola" name="ola-thumb"/></a> 
+        </div>
+
+        <div class="thumbnail">
+            <a href="portfolio-cuso.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('cuso-thumb','',' images/thumb-cuso-on.jpg',1)">
+            <img src="images/thumb-cuso.jpg" alt="cuso" name="cuso-thumb"/></a>
+        </div>
+
+        <div class="thumbnail">
+            <a href="portfolio-threshold.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('threshold-thumb','',' images/thumb-threshold-on.jpg',1)">
+            <img src="images/thumb-threshold.jpg" alt="threshold" name="threshold-thumb"></a>
+        </div>
         
-        	<div class="body">
-              <span>
-                  Education:
-                  <h1> OCAD University </h1> (with distinction, 2003–2007)  <br />
-              </span>
-              <br />
-    
-              <span>
-                  Strengths:
-                  <h1> Problem solving </h1>
-                  <h1> Conceptualization </h1> 
-                  (I sketch, really)
-              <h1> Execution</h1>
-                  <h1> Attention to detail </h1>
-                  (prevented costly mistakes!)
-                  <h1> Time management</h1> (deadlines are deadlines are deadlines) <br />
-              </span>
-              <br />
-                
-              <span>
-                  Weaknesses:
-                  <h1> Dim sum</h1>
-                  <h1> Cookies </h1>
-                  <h1> Chocolate </h1> (and anything sweet really)
-                </span>
-              <br />          
-			</div>
- 
-      </div>
+ 	 	<div class="thumbnail">
+            <a href="portfolio-chf.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('chf-thumb','',' images/thumb-chf-on.jpg',1)">
+            <img src="images/thumb-chf.jpg" alt="chf" name="chf-thumb"></a>
+        </div>
         
-        <div id="rightcolumn">
-        	<div class="body">
-              <span>
-              	Software:
-                <h1> Adobe Creative Suite </h1> (CS5)
-                <h1> Acrobat Professional </h1>
-                <h1> Microsoft Office </h1>
-                <h1> Dreamweaver </h1>
-                <h1> HTML </h1>
-                <h1> CSS </h1>
-                <h1> Flash </h1>
-                <h1> Joomla </h1> (maintenance)
-              </span>
+        <div class="thumbnail">
+            <a href="portfolio-wyers.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('wyers-thumb','',' images/thumb-wyers-on.jpg',1)">
+            <img src="images/thumb-wyers.jpg" alt="wyers" name="wyers-thumb"></a>
+        </div>
+     
+        <div class="thumbnail">
+            <a href="portfolio-rexall.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('rexall-thumb','',' images/thumb-rexall-on.jpg',1)">
+            <img src="images/thumb-rexall.jpg" alt="rexall" name="rexall-thumb"></a>
+        </div>
+        
+        <div class="thumbnail">
+            <a href="portfolio-cabas.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('cabas-thumb','',' images/thumb-cabas-on.jpg',1)">
+            <img src="images/thumb-cabas.jpg" alt="cabas" name="cabas-thumb"></a>
+        </div>
+        
+        <div class="thumbnail">
+            <a href="portfolio-tid.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('tid-thumb','',' images/thumb-tid-on.jpg',1)">
+            <img src="images/thumb-tid.jpg" alt="tid" name="tid-thumb"></a>
+        </div>
+        
+        <div class="thumbnail">
+            <a href="portfolio-ahking.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('ahking-thumb','',' images/thumb-ahking-on.jpg',1)">
+            <img src="images/thumb-ahking.jpg" alt="ahking" name="ahking-thumb"></a>
+        </div>
+        
+        <div class="thumbnail">
+            <a href="portfolio-greensoul.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('greensoul-thumb','',' images/thumb-greensoul-on.jpg',1)">
+            <img src="images/thumb-greensoul.jpg" alt="greensoul" name="greensoul-thumb"></a>
+        </div>
+        
+        <div class="thumbnail">
+            <a href="portfolio-integrate.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('integrate-thumb','',' images/thumb-integrate-on.jpg',1)">
+            <img src="images/thumb-integrate.jpg" alt="integrate" name="integrate-thumb"></a>
+        </div>
+        
+        <div class="thumbnail">
+            <a href="portfolio-personal.html" onmouseout="MM_swapImgRestore()" 
+            onmouseover="MM_swapImage('personal-thumb','',' images/thumb-personal-on.jpg',1)">
+            <img src="images/thumb-personal.jpg" alt="personal" name="personal-thumb"></a>
         </div>
         
         
         
- 	</div>
+        
+ </div>
     
 </body>
 
